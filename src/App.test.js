@@ -8,7 +8,7 @@ import {
 import ReservationsList from "./components/reservationList";
 import App from "./App";
 import ReservationForm from "./components/reservationForm";
-import { useReservations } from "./hooks/usereservations";
+import { useReservations } from "./hooks/useReservations";
 
 describe("Test a la applicacion de reservas: ", () => {
   it("Muestra 'No hay reservas aún' cuando la lista está vacía", () => {
