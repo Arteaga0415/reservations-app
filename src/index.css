@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  height: 2em;
+  width: 100%;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 15px;
+  height: 4em;
+  width: 100%;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+  height: 90vh;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  border: 1px solid;
+  border-color: #3e3e3e;
+  border-radius: 30px;
+  box-shadow: 12px 12px 2px 1px rgba(55, 55, 57, 0.2);
+  margin: 2em;
+}
+
+.reservation-card {
+  border: 1px solid;
+  border-color: #3e3e3e;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
